@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fe6298e6-72c9-4d75-807b-966b64d76f4e" name="hackmonkeys" url="http://web.njit.edu/~cmh48/hackathon">
+        <fileTransfer host="afs10.njit.edu" port="22" rootFolder="/afs/cad/u/c/m/cmh48/public_html/hackathon" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

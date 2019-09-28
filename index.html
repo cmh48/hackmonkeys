@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Homework One</title>
+</head>
+<body>
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1 nav-design">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+            aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item avatar">
+                <a class="nav-link p-0" href="#">
+                    <form>
+                        <div class="row">
+                            <div class="col text-white font-weight-light">
+                                <label>
+                                    <input type="text" name="fName" value="Email or Phone Number" class="nav-input font-weight-light">
+                                </label> <br>
+                            </div>
+                            <div class="col text-white font-weight-light">
+                                <label>
+                                    <input type="password" name="lName" value="Password" class="nav-input font-weight-light">
+                                </label>
+                            </div>
+                            <div class="col text-white font-weight-light">
+                                <label>
+                                        <input type="reset" value="Login" onclick="reset()" class="login font-weight-light">
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container pd-btm">
+    <div class="row">
+        <div class="col form_intro">
+            <h1 class="display-3 font-weight-light text-white"> Hello Everyone! </h1><br>
+            <h3><small class="font-weight-light text-white"> Subscribe to my blog to get the latest updates about the
+                newest tech companies. Simply fill out this form and click <span
+                        class="subscribe_emp">"Subscribe" !</span></small></h3>
+        </div>
+        <div class="col-5">
+
+            <div class="row">
+                <div class="col text-white font-weight-light">
+
+                </div>
+                <br>
+                <div class="col text-white font-weight-light">
+                </div>
+
+                <form id="form" onsubmit="return validate()" class="text-white font-weight-light" style="padding-left: 15px;">
+                    <div id="error_message" class="error_box"></div>
+                    <div class="row">
+                        <div class="col text-white font-weight-light">
+                            First Name : <br>
+                            <label>
+                                <input type="text" name="fName" class="name-input font-weight-light">
+                            </label> <br>
+                        </div>
+                        <div class="col text-white font-weight-light">
+                            Last Name: <br>
+                            <label>
+                                <input type="text" name="lName" class="name-input font-weight-light">
+                            </label>
+                        </div>
+                    </div>
+                    Email:<br>
+                    <label>
+                        <input type="text" name="email" class="lg-input-box">
+                    </label><br>
+                    Hometown:<br>
+                    <label>
+                        <input type="text" name="hometown" class="lg-input-box">
+                    </label><br>
+                    Major:<br>
+                    <label>
+                        <input type="text" name="Major" class="lg-input-box">
+                    </label>
+                    <br><br>
+                    <div class="row">
+                        <div class="col">
+                            <input type="submit" value="Sign-up" class="subcribe font-weight-light">
+                        </div>
+                        <div class="col">
+                            <input type="reset" value="Cancel" onclick="reset()" class="subcribe font-weight-light">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
