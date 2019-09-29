@@ -12,7 +12,7 @@
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 .name-input{
-    width: 207px;
+    width: 190px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -21,7 +21,7 @@
     box-sizing: border-box;
 }
 .lg-input-box {
-    width: 215%;
+    width: 420px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -60,6 +60,7 @@
     background-color: #b3668d;
     background-image: linear-gradient(to right, #b3668d, #74c2cc);
 }
-.footer-design{
-    background-color: #b3668d;
+.form-design{
+    background-color: black;
+    opacity: .20;
 }
